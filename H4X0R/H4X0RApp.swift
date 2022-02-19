@@ -9,6 +9,9 @@ import SwiftUI
 
 @main
 struct H4X0RApp: App {
+    
+    @UIApplicationDelegateAdaptor(AppDelegate.self) var appDelegate
+    
     var body: some Scene {
         WindowGroup {
             ContentView()
